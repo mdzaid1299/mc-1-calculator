@@ -4,6 +4,7 @@ public class ScientificCalculator {
 
     public static void main(String[] args) {
         ScientificCalculator scientificCalculator = new ScientificCalculator();
+
         try {
             scientificCalculator.cielOfANumber(10);
         } catch (CalculatorException e) {
