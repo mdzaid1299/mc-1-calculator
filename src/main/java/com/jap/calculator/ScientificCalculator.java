@@ -16,10 +16,10 @@ public class ScientificCalculator {
         long power = 0;
         double sqrt = 0;
         try {
-            ceil = scientificCalculator.cielOfANumber(10.5f);
-            floor = scientificCalculator.floorOfANumber(50.7f);
-            power = scientificCalculator.power(7,5);
-            sqrt = scientificCalculator.squareRoot(8);
+            ceil = scientificCalculator.cielOfANumber(098.5f);
+            floor = scientificCalculator.floorOfANumber(8.7f);
+            power = scientificCalculator.power(6,2);
+            sqrt = scientificCalculator.squareRoot(-9);
         } catch (CalculatorException e) {
             System.out.println("e = " + e);
         }
