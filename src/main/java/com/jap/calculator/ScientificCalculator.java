@@ -8,6 +8,7 @@ public class ScientificCalculator {
         try {
             scientificCalculator.cielOfANumber(10);
         } catch (CalculatorException e) {
+
             throw new RuntimeException(e);
         }
         //Call all the methods one by one and surround them by try and respective catch blocks.
