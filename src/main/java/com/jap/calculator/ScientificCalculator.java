@@ -31,10 +31,11 @@ public class ScientificCalculator {
     }
 
     public double cielOfANumber(float num) throws CalculatorException {
-        //check if num is equal to or less than 0 than throw the userdefined exception with proper message
+        //check if num is equal to or less than 0 than throw the user defined exception with proper message
         //or else call ceil method of Math class and return the value
         if (num == 0 || num < 0) {
-            throw new CalculatorException("Number cant be zero or less then zoro");
+
+            throw new CalculatorException("Number cant be zero or less then zero");
         }
 
         return (int)num +1;
